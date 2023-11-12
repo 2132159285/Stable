@@ -1,5 +1,6 @@
-export moudle f_pow
-unsigned long long  fast_pow(int a,int b)
+export module f_pow;
+
+export unsigned long long  fast_pow(int a,int b)
 {
 	unsigned long long tmp=a,ans=1;
 	while(b)
@@ -11,7 +12,7 @@ unsigned long long  fast_pow(int a,int b)
 	return ans;
 }
 
-unsigned long long  fast_pow(int a,int b,int mod)
+export unsigned long long  fast_pow(int a,int b,int mod)
 {
 	unsigned long long tmp=a,ans=1;
 	while(b)
