@@ -34,7 +34,7 @@ private:
     }
     void MemInit(int maxn)
     {
-        _maxn = maxn + 5; _maxl = (_logi2(_maxn) + 5);
+        _maxn = maxn+1; _maxl = (_logi2(_maxn) + 1);
         _data = new  t* [_maxn];
         _log2 = new int[_maxn];
 
@@ -55,7 +55,6 @@ private:
             }
         }
     }
-
 public:
     void Build(t* data,int maxn)
     {
